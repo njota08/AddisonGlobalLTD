@@ -1,5 +1,8 @@
+/* ****************************************************************************/
 package com.github.njota08.ciklumtest.pages;
+/* ****************************************************************************/
 
+/* ****************************************************************************/
 import com.github.njota08.ciklumtest.components.HorizontalSearchForm;
 import com.github.njota08.ciklumtest.components.MainHeader;
 import com.github.njota08.ciklumtest.components.SearchForm;
@@ -9,7 +12,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+/* ****************************************************************************/
 
+/**
+ * @author Nery J. Marin Salas
+ */
 public class BookingPage {
 
     public static final String URL = "https://www.booking.com";
@@ -28,7 +35,6 @@ public class BookingPage {
         WebElement webElement = Utils.waitFor(driver, ExpectedConditions.presenceOfElementLocated(MAIN_HEADER));
         return new MainHeader(webElement, driver);
     }
-
 
     public SearchForm getSearchSectionComponent() {
         if (!driver.findElements(HORIZONTAL_SEARCH_SECTION).isEmpty()) {

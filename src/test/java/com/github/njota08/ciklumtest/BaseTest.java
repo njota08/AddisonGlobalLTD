@@ -1,13 +1,20 @@
+/* ****************************************************************************/
 package com.github.njota08.ciklumtest;
+/* ****************************************************************************/
 
+/* ****************************************************************************/
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+/* ****************************************************************************/
 
+/**
+ * @author Nery J. Marin Salas
+ */
 public class BaseTest {
 
-    protected static WebDriver driver;
+    static WebDriver driver;
 
     @BeforeTest
     public void beforeScenario() {
@@ -18,7 +25,6 @@ public class BaseTest {
         driver.manage()
                 .window()
                 .maximize();
-
     }
 
     @AfterTest

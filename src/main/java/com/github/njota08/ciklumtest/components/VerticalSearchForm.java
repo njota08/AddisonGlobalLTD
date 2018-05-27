@@ -1,12 +1,19 @@
+/* ****************************************************************************/
 package com.github.njota08.ciklumtest.components;
+/* ****************************************************************************/
 
+/* ****************************************************************************/
 import com.github.njota08.ciklumtest.utils.Utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+/* ****************************************************************************/
 
+/**
+ * @author Nery J. Marin Salas
+ */
 public class VerticalSearchForm implements SearchForm {
 
     private final WebDriver driver;

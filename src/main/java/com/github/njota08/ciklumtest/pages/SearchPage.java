@@ -1,14 +1,19 @@
+/* ****************************************************************************/
 package com.github.njota08.ciklumtest.pages;
+/* ****************************************************************************/
 
+/* ****************************************************************************/
 import com.github.njota08.ciklumtest.components.SearchSection;
 import com.github.njota08.ciklumtest.components.Result;
 import com.github.njota08.ciklumtest.utils.Utils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import java.util.List;
+/* ****************************************************************************/
 
-
+/**
+ * @author Nery J. Marin Salas
+ */
 public class SearchPage {
 
     private final WebDriver driver;

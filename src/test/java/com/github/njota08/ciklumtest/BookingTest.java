@@ -1,6 +1,8 @@
+/* ****************************************************************************/
 package com.github.njota08.ciklumtest;
+/* ****************************************************************************/
 
-
+/* ****************************************************************************/
 import com.github.njota08.ciklumtest.components.MainHeader;
 import com.github.njota08.ciklumtest.components.SearchForm;
 import com.github.njota08.ciklumtest.components.SearchSection;
@@ -9,7 +11,11 @@ import com.github.njota08.ciklumtest.pages.BookingPage;
 import com.github.njota08.ciklumtest.pages.SearchPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+/* ****************************************************************************/
 
+/**
+ * @author Nery J. Marin Salas
+ */
 public class BookingTest extends BaseTest {
 
     private static final String EURO_SYMBOL = "\u20AC";

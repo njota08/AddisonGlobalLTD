@@ -1,15 +1,21 @@
+/* ****************************************************************************/
 package com.github.njota08.ciklumtest.components;
+/* ****************************************************************************/
 
+/* ****************************************************************************/
 import com.github.njota08.ciklumtest.utils.Utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+/* ****************************************************************************/
 
+/**
+ * @author Nery J. Marin Salas
+ */
 public class Result {
 
     private final WebElement webElement;
