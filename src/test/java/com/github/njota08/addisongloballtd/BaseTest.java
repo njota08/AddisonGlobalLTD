@@ -29,7 +29,8 @@ public class BaseTest {
 
     @AfterTest
     public void afterScenario() {
-        driver.close();
+        if (driver != null)
+        driver.quit();
         driver = null;
     }
 }
